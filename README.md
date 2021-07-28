@@ -1,7 +1,23 @@
 Project: "Memetic Algorithms for the Job Shop Scheduling Problem".
-Paper with explanation: A Parallel Memetic Algorithm with Explicit Management of Diversity for the Job Shop Scheduling Problem (Yet unpublished)
+Paper with explanation: A Parallel Memetic Algorithm with Explicit Management of Diversity for the Job Shop Scheduling Problem 
 Programmer: Oscar Hernández Constantino
 Designers: Oscar Hernández Constantino, Carlos Segura
+
+Please cite as follows:
+@Article{Hernandez:21,
+author={Hern{\'a}ndez-Constantino, Oscar and Segura, Carlos},
+title={A parallel memetic algorithm with explicit management of diversity for the job shop scheduling problem},
+journal={Applied Intelligence},
+year={2021},
+month={Apr},
+day={24},
+abstract={The job shop scheduling problem (JSSP) is a very popular NP-hard optimization problem that involves assigning jobs to resources. Recent advances in the field of memetic algorithms show that explicitly managing the diversity of the population by taking into account the stopping criterion with the aim of dynamically adapting the balance between exploration and exploitation is key to their success. This is especially the case in long-term executions. However, this design principle has not yet been applied to the JSSP. This paper proposes a novel memetic algorithm that integrates some of the most advanced components devised in the literature for the JSSP with a replacement strategy that explicitly manages the diversity by considering a novel dissimilarity measure. To properly address large instances, a parallel master-worker model is used. Experimental validation shows the important advances attained by our proposal when compared to two state-of-the-art optimizers. The advantages are clear in both sequential and parallel cases, with more impressive achievements appearing in the parallel case. The parallel proposal has yielded new best-known solutions in 30 well-known JSSP instances, matching the lower bound in two of them, meaning that at least two new optimal solutions have been discovered.},
+issn={1573-7497},
+doi={10.1007/s10489-021-02406-2},
+url={https://doi.org/10.1007/s10489-021-02406-2}
+}
+
+
 
 ## General Description
 This repository contains code that implements the MAEMD, HEA and TSPR methods described in the paper "A Parallel Memetic Algorithm with Explicit Management of Diversity for the Job Shop Scheduling Problem" by Oscar Hernández Constantino and Carlos Segura. Note that HEA and TSPR were existing methods, and the novel one is MAEMD. All of them make use of an already designed Tabu Search (TS). However, TS was also implemented from scratch. All the results presented in the paper were obtained with this code, by just changing the parameters.
