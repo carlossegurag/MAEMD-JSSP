@@ -61,4 +61,4 @@ Both TestAGs and TestAg_MPI receive 13 parameters. They are the following:
 13) Population size
 
 Example:
-./TestAgS data/dmu20.txt 0 output/TestAGS_ 2 0 0 1 345600 100000 1 1 1 50
+./TestAgS instances/dmu20.txt 0 output/TestAGS_ 2 0 0 1 345600 100000 1 1 1 50
